@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T07:50:47.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.56" etag="jsXMSlQwkp_q-k8Dx-Q1" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-05T08:16:13.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.56" etag="VklnRtyZfd573-mV3VE1" version="14.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -96,7 +96,7 @@
         <mxCell id="PGyBlTvzSVpYLUktHaig-34" value="返回DefaultSqlSessionFactory对象" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="PGyBlTvzSVpYLUktHaig-33" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PGyBlTvzSVpYLUktHaig-35" value="" style="endArrow=classic;html=1;exitX=-0.071;exitY=0.889;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PGyBlTvzSVpYLUktHaig-12" edge="1">
+        <mxCell id="PGyBlTvzSVpYLUktHaig-35" value="" style="endArrow=classic;html=1;exitX=-0.071;exitY=0.889;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PGyBlTvzSVpYLUktHaig-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="349" y="290" as="sourcePoint" />
             <mxPoint x="99" y="293" as="targetPoint" />
@@ -603,6 +603,9 @@
               <mxPoint x="1206" y="1230" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OajghMgm2F908nDoyd-L-0" value="&lt;div&gt;使用端：（项目）引入自定义持久层框架的jar包&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 提供两部分配置信息：数据库配置信息、sql配置信息：sql语句、参数类型、返回值类型&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 使用配置文件来提供这两部分配置信息：&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;（1） sqlMapConfig.xml:存放数据库配置信息，存放Mapper.xml的全路径&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;（2） mapper.xml:存放sql配置信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;自定义吃就成框架本身：（工程）：本质就是对JDBC代码进行了封装&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; （1）加载配置文件：根据配置文件的路径，加载配置文件成字节输入流，存储在内存中&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;创建Resources类&amp;nbsp; 方法：inputSteam getResourceAsSteam(String path)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;（2）创建两个JavaBean：（容器对象）：存在的就是对配置文件解析出来的内容&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;Configuration:核心配置类：存放sqlMapConfig.xml解析出来的内容&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;MapperStatement:映射配置类：存放mappper.xml解析出来的内容&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;（3）解析配置文件：dom4j&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 创建类：SqlSessionFactoryBuilder 方法：build(InputSteam in)&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;第一：使用dom4j解析配置文件，将解析出来的内容封装到容器对象中&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;第二：创建SqlSessionFactory对象；生产sqlSession:回话对象（工厂模式）&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;（4）创建 SqlSessionFactory 接口及实现类 DefaultSqlSessionFactory&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;第一：openSession(); 生产sqlSession&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;（5）创建 SqlSession 接口及实现类 DefaultSession&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;定义对数据库的crud操作，selectList()/selectOne()/update()/delete()&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;（6）创建 Executor 接口以及实现类 SimpleExecutor 实现类&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;query(Configuration,MapperStatement,Object... params):执行的就是JDBC代码&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1298" y="82" width="530" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
