@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T06:53:09.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Xm0I76Uwu-AxFa-R1iNC" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T06:55:07.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="VWVAX9CmlpW9YSBeZ-ir" version="16.1.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,6 +40,9 @@
         <mxCell id="ciJyu8-mFueJ9y2TQTpm-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ciJyu8-mFueJ9y2TQTpm-13" target="ciJyu8-mFueJ9y2TQTpm-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ciJyu8-mFueJ9y2TQTpm-13" target="ciJyu8-mFueJ9y2TQTpm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ciJyu8-mFueJ9y2TQTpm-13" value="向Bean对象填充容器属性" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="270" width="120" height="60" as="geometry" />
         </mxCell>
@@ -48,6 +51,21 @@
         </mxCell>
         <mxCell id="ciJyu8-mFueJ9y2TQTpm-15" value="属性的填充" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="200" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ciJyu8-mFueJ9y2TQTpm-16" target="ciJyu8-mFueJ9y2TQTpm-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-16" value="前置增强处理" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ciJyu8-mFueJ9y2TQTpm-18" target="ciJyu8-mFueJ9y2TQTpm-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-18" value="初始化Bean对象" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-20" value="后置增强处理" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="585" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
