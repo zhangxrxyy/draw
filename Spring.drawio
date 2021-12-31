@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T07:15:33.149Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="UkDREM_BGHuC9W4arBZK" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T07:16:54.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="CWDOK2_DMwXmwQD3pmd2" version="16.1.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -167,6 +167,36 @@
         </mxCell>
         <mxCell id="ciJyu8-mFueJ9y2TQTpm-66" value="SpringBean的生命周期" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-67" value="通过createBeanInstance方法来实例化bean" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-68" value="通过populateBean方法来完成对象的属性填充" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-69" value="通过调用invokeAwareMethods方法来讲容器对象设置到具体的Bean对象中" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-70" value="通过调用BeanPostProcessor中的&lt;br&gt;postProcessBeforeInitializtion方法来对bean对象进行扩展" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="330" y="380" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-71" value="当前对象是否实现了InitializingBean接口" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="300" y="470" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-72" value="调用invokeInitMethods方法来完成初始化" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-73" value="调用afterPropertiesSet方法来进行设置bean对象" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-74" value="&lt;span&gt;通过调用BeanPostProcessor中的&lt;/span&gt;&lt;br&gt;&lt;span&gt;postProcessAtferInitializtion方法来对bean对象进行后置处理工作&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="330" y="680" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-75" value="通过getBean的方式去进行对象的获取和使用" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="330" y="780" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-76" value="判断是否实现了DispoableBean接口" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="890" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
