@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T07:16:54.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="CWDOK2_DMwXmwQD3pmd2" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T07:17:01.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Vya8G9KoFykMTPorQTL1" version="16.1.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,7 +135,7 @@
         <mxCell id="ciJyu8-mFueJ9y2TQTpm-51" value="当前对象是否实现了InitializingBean接口" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="300" y="470" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ciJyu8-mFueJ9y2TQTpm-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" source="ciJyu8-mFueJ9y2TQTpm-53" target="ciJyu8-mFueJ9y2TQTpm-46" parent="1">
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="ciJyu8-mFueJ9y2TQTpm-53" target="ciJyu8-mFueJ9y2TQTpm-46" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ciJyu8-mFueJ9y2TQTpm-53" value="调用afterPropertiesSet方法来进行设置bean对象" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
