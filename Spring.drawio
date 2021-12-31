@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T07:17:01.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Vya8G9KoFykMTPorQTL1" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T07:31:09.602Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="op1NGgGwQr8VH0Awlak4" version="16.1.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -197,6 +197,12 @@
         </mxCell>
         <mxCell id="ciJyu8-mFueJ9y2TQTpm-76" value="判断是否实现了DispoableBean接口" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-77" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#DEFFE4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3" y="1011" width="822" height="1028" as="geometry" />
+        </mxCell>
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-78" value="Spring中循环依赖问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="3" y="1011" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
