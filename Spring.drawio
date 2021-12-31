@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T08:22:32.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Ve4-rKEkpWnwvgyPPOgs" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T08:28:21.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="oj2Rr0V2b25_bzJmVl-e" version="16.1.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -204,7 +204,7 @@
         <mxCell id="ciJyu8-mFueJ9y2TQTpm-78" value="Spring中循环依赖问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="3" y="1011" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ciJyu8-mFueJ9y2TQTpm-80" value="A依赖B，B依赖A&lt;br&gt;Spring中Bean对象的创建都要经历实例化和初始化（属性填充）的过程,通过将对象的状态分开，存在半成品和成品对象的方式，来分别进行初始化和实例化，成品和半成品在存储的时候需要分不同的缓存来进行存储；&lt;br&gt;1.只有一级缓存能都解决？&lt;br&gt;不行，成品和半成品放到一起，而半成品无法暴露给外部使用，一级缓存中放成品对象，二级缓存放半成品对象&lt;br&gt;2.有二级缓存能否解决？&lt;br&gt;行，当没有aop存在的话是可以解决的，当AOP存在的话无法解决，必须要使用三级缓存。&lt;br&gt;3.为什么需要三级缓存？&lt;br&gt;三级缓存的value类型是ObjectFactory，是一个函数式接口，不是直接进行调用的，只有在调用getObject方法的时候才会去调用里面存储的Lambda表达式，存在的意义是保证在整个容器的运行过程中同名的bean对象只能有一个" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="ciJyu8-mFueJ9y2TQTpm-80" value="A依赖B，B依赖A&lt;br&gt;Spring中Bean对象的创建都要经历实例化和初始化（属性填充）的过程,通过将对象的状态分开，存在半成品和成品对象的方式，来分别进行初始化和实例化，成品和半成品在存储的时候需要分不同的缓存来进行存储；&lt;br&gt;1.只有一级缓存能都解决？&lt;br&gt;不行，成品和半成品放到一起，而半成品无法暴露给外部使用，一级缓存中放成品对象，二级缓存放半成品对象&lt;br&gt;2.有二级缓存能否解决？&lt;br&gt;行，当没有aop存在的话是可以解决的，当AOP存在的话无法解决，必须要使用三级缓存。&lt;br&gt;3.为什么需要三级缓存？&lt;br&gt;三级缓存的value类型是ObjectFactory，是一个函数式接口，不是直接进行调用的，只有在调用getObject方法的时候才会去调用里面存储的Lambda表达式，存在的意义是保证在整个容器的运行过程中同名的bean对象只能有一个&lt;br&gt;当需要代理对象的时候，或者说代理对象生成的时候必须要覆盖原始对象，也就是说整个容器中有且仅有一个Bean对象" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="40" y="1039" width="838" height="211" as="geometry" />
         </mxCell>
         <mxCell id="ciJyu8-mFueJ9y2TQTpm-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="ciJyu8-mFueJ9y2TQTpm-81" target="ciJyu8-mFueJ9y2TQTpm-82">
