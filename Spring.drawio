@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T04:43:55.441Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="EygGHIqKEcsoXeLpRxyt" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T04:46:51.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="8ucpEc_JyJDKeunxgYir" version="16.1.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
             <mxPoint x="-5" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ikXIMhRFEe6Y9AmsKK4H-13" value="推荐并设置main方法定义类" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#C3ABD0;" parent="M-vsIaJZoJOFEB_HzY_K-72" vertex="1">
+        <mxCell id="ikXIMhRFEe6Y9AmsKK4H-13" value="设置main方法定义类" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#C3ABD0;" parent="M-vsIaJZoJOFEB_HzY_K-72" vertex="1">
           <mxGeometry x="1050" y="240" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ikXIMhRFEe6Y9AmsKK4H-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="M-vsIaJZoJOFEB_HzY_K-72" source="ikXIMhRFEe6Y9AmsKK4H-4" target="ikXIMhRFEe6Y9AmsKK4H-13" edge="1">
@@ -107,7 +107,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ikXIMhRFEe6Y9AmsKK4H-22" value="headless系统属性设置" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="M-vsIaJZoJOFEB_HzY_K-72" vertex="1">
+        <mxCell id="ikXIMhRFEe6Y9AmsKK4H-22" value="设置headless属性并设置到系统属性中" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="M-vsIaJZoJOFEB_HzY_K-72" vertex="1">
           <mxGeometry x="780" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ikXIMhRFEe6Y9AmsKK4H-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="M-vsIaJZoJOFEB_HzY_K-72" source="ikXIMhRFEe6Y9AmsKK4H-19" target="ikXIMhRFEe6Y9AmsKK4H-22" edge="1">
@@ -118,7 +118,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ikXIMhRFEe6Y9AmsKK4H-25" value="计时器实例并启动应用监听器开始监听" style="whiteSpace=wrap;html=1;rounded=0;" parent="M-vsIaJZoJOFEB_HzY_K-72" vertex="1">
+        <mxCell id="ikXIMhRFEe6Y9AmsKK4H-25" value="创建计时器对象，开始计时" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="M-vsIaJZoJOFEB_HzY_K-72" vertex="1">
           <mxGeometry x="780" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ikXIMhRFEe6Y9AmsKK4H-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="M-vsIaJZoJOFEB_HzY_K-72" source="ikXIMhRFEe6Y9AmsKK4H-19" target="ikXIMhRFEe6Y9AmsKK4H-25" edge="1">
