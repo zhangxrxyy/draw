@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T04:50:26.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="gm9XVcj0Kq5GSBIS96jO" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T04:51:19.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="R4-_o76Vy976z6XE4TrU" version="16.1.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1185" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -388,6 +388,9 @@
         </mxCell>
         <mxCell id="M-vsIaJZoJOFEB_HzY_K-71" value="SpringBoot启动流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="M-vsIaJZoJOFEB_HzY_K-72" vertex="1">
           <mxGeometry width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5tECQ-b1DLXeLB3Z4ev-1" value="根据传入的类得到需要的实体类的集合" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="M-vsIaJZoJOFEB_HzY_K-72">
+          <mxGeometry x="1010" y="430" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="M-vsIaJZoJOFEB_HzY_K-73" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry width="830" height="970" as="geometry" />
