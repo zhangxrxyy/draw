@@ -36,6 +36,58 @@
         <mxCell id="HtzidGlu3LuhMGh3_q5L-11" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; vertical-align: middle; color: rgb(25, 25, 26); font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: middle;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: middle;&quot;&gt;&lt;p&gt;产品信息&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="810" y="150" width="110" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="HtzidGlu3LuhMGh3_q5L-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="320" width="860" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="HtzidGlu3LuhMGh3_q5L-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HtzidGlu3LuhMGh3_q5L-17" target="HtzidGlu3LuhMGh3_q5L-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HtzidGlu3LuhMGh3_q5L-22" value="入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="HtzidGlu3LuhMGh3_q5L-20">
+          <mxGeometry x="0.1714" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HtzidGlu3LuhMGh3_q5L-17" value="产线下线读写器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="360" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HtzidGlu3LuhMGh3_q5L-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HtzidGlu3LuhMGh3_q5L-18" target="HtzidGlu3LuhMGh3_q5L-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HtzidGlu3LuhMGh3_q5L-23" value="推送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="HtzidGlu3LuhMGh3_q5L-21">
+          <mxGeometry x="0.0667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HtzidGlu3LuhMGh3_q5L-30" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HtzidGlu3LuhMGh3_q5L-18" target="HtzidGlu3LuhMGh3_q5L-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="330" />
+              <mxPoint x="745" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HtzidGlu3LuhMGh3_q5L-31" value="散捆" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="HtzidGlu3LuhMGh3_q5L-30">
+          <mxGeometry x="-0.0818" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HtzidGlu3LuhMGh3_q5L-18" value="保存到临时库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="360" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HtzidGlu3LuhMGh3_q5L-19" value="MES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="360" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HtzidGlu3LuhMGh3_q5L-29" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HtzidGlu3LuhMGh3_q5L-26" target="HtzidGlu3LuhMGh3_q5L-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="745" y="440" />
+              <mxPoint x="185" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HtzidGlu3LuhMGh3_q5L-26" value="产线上线读写器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="360" width="110" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
